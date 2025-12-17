@@ -82,7 +82,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     localStorage.removeItem(STORAGE_KEYS.AUTH);
     localStorage.removeItem(STORAGE_KEYS.ENROLLMENTS);
 
-    window.location.href = "/login";
+    window.location.href = `${import.meta.env.BASE_URL}login`;
   }, []);
 
   const getCourseRoleFn = useCallback(
