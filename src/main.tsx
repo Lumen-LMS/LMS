@@ -10,6 +10,7 @@ import "./styles.css";
 
 const router = createRouter({
   routeTree,
+  basepath: "/LMS",
   defaultPreload: "intent",
   scrollRestoration: true,
   defaultStructuralSharing: true,

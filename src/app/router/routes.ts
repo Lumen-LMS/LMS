@@ -32,7 +32,6 @@ import { adminGuard, authGuard } from "./guards";
 
 export const rootRoute = createRootRoute();
 
-// Index route - redirect to /home or /login
 const indexRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/",
