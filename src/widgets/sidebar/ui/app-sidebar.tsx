@@ -21,6 +21,9 @@ import { hasMinCourseRole } from "@/entities/enrollment";
 import { useAuth } from "@/features/auth";
 import { LanguageSwitch } from "@/features/language-switch";
 import { ThemeSwitch } from "@/features/theme-switch";
+
+import { assetUrl } from "@/shared/lib/assets";
+
 import {
   Collapsible,
   CollapsibleContent,
@@ -43,6 +46,7 @@ import {
   SidebarRail,
   useSidebar,
 } from "@/shared/ui/sidebar";
+
 import { TooltipProvider } from "@/shared/ui/tooltip";
 
 interface CourseSubItem {
@@ -144,7 +148,7 @@ export function AppSidebar() {
       <SidebarHeader className="h-14 border-b flex items-center justify-center px-2">
         <Link to="/home" className="flex items-center gap-2 font-semibold">
           <img
-            src="/logo192.png"
+            src={assetUrl("/logo192.png")}
             alt="Lumen LMS"
             className="h-8 w-8 shrink-0"
           />

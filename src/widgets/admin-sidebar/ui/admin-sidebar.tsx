@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import { LanguageSwitch } from "@/features/language-switch";
 import { ThemeSwitch } from "@/features/theme-switch";
 
+import { assetUrl } from "@/shared/lib/assets";
 import {
   Sidebar,
   SidebarContent,
@@ -54,7 +55,7 @@ export function AdminSidebar() {
       <SidebarHeader className="h-14 border-b flex items-center justify-center px-2">
         <Link to="/admin" className="flex items-center gap-2 font-semibold">
           <img
-            src="/logo192.png"
+            src={assetUrl("/logo192.png")}
             alt="Lumen LMS"
             className="h-8 w-8 shrink-0"
           />
