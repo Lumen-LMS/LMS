@@ -1,0 +1,177 @@
+{
+	"common": {
+		"loading": "Loading...",
+		"error": "Error",
+		"save": "Save",
+		"cancel": "Cancel",
+		"send": "Send",
+		"back": "Back",
+		"logout": "Logout",
+		"edit": "Edit",
+		"delete": "Delete",
+		"create": "Create"
+	},
+	"auth": {
+		"title": "Welcome to Lumen LMS",
+		"subtitle": "Learning Management System",
+		"loginWithItmo": "Login with ITMO ID",
+		"loggingIn": "Logging in..."
+	},
+	"nav": {
+		"home": "Home",
+		"profile": "Profile",
+		"courses": "My Courses",
+		"settings": "Settings",
+		"menu": "Menu"
+	},
+	"home": {
+		"title": "My Courses",
+		"subtitle": "Courses you are enrolled in",
+		"noCourses": "You have no courses yet",
+		"progress": "Progress"
+	},
+	"profile": {
+		"title": "Profile",
+		"personalInfo": "Personal Information",
+		"academicInfo": "Academic Information",
+		"contacts": "Contacts",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"middleName": "Middle Name",
+		"email": "Email",
+		"group": "Group",
+		"course": "Year",
+		"faculty": "Faculty",
+		"isuId": "ISU ID",
+		"github": "GitHub",
+		"devRoleSwitcher": "DEV: Role Switcher",
+		"systemRole": "System Role",
+		"courseRoles": "Course Roles",
+		"devWarning": "This is a temporary switcher for testing. Changes are saved to localStorage."
+	},
+	"course": {
+		"about": "About",
+		"grades": "Grades",
+		"reviews": "Code Reviews",
+		"materials": "Materials",
+		"feedback": "Feedback",
+		"members": "Members",
+		"assignments": "Assignments",
+		"settings": "Settings",
+		"instructor": "Instructor",
+		"semester": "Semester",
+		"description": "Course Description",
+		"credits": "{{count}} credits",
+		"notFound": "Course not found",
+		"assignmentsPlaceholder": "Assignment management will be here",
+		"settingsPlaceholder": "Course settings will be here"
+	},
+	"grades": {
+		"title": "Grades",
+		"assignment": "Assignment",
+		"score": "Score",
+		"maxScore": "Max",
+		"submittedAt": "Submitted",
+		"notSubmitted": "Not submitted",
+		"notGraded": "Not graded"
+	},
+	"reviews": {
+		"title": "Code Reviews",
+		"assignment": "Assignment",
+		"pullRequest": "Pull Request",
+		"status": "Status",
+		"submittedAt": "Submitted",
+		"pending": "Pending",
+		"inReview": "In Review",
+		"approved": "Approved",
+		"rejected": "Rejected"
+	},
+	"materials": {
+		"title": "Learning Materials",
+		"link": "Link",
+		"pdf": "PDF Document",
+		"video": "Video",
+		"presentation": "Presentation",
+		"noMaterials": "No materials yet"
+	},
+	"feedback": {
+		"title": "Feedback",
+		"subtitle": "Write to your instructor",
+		"subject": "Subject",
+		"subjectPlaceholder": "Enter subject",
+		"message": "Message",
+		"messagePlaceholder": "Enter your message...",
+		"send": "Send",
+		"success": "Message sent",
+		"error": "Failed to send"
+	},
+	"language": {
+		"ru": "Русский",
+		"en": "English"
+	},
+	"roles": {
+		"admin": "Admin",
+		"user": "User",
+		"lecturer": "Lecturer",
+		"practitioner": "Practitioner",
+		"mentor": "Mentor",
+		"student": "Student"
+	},
+	"admin": {
+		"title": "Admin Panel",
+		"panelTitle": "Admin Panel",
+		"nav": {
+			"dashboard": "Dashboard",
+			"users": "Users",
+			"courses": "Courses",
+			"audit": "Audit"
+		},
+		"dashboard": {
+			"title": "Dashboard",
+			"subtitle": "System overview",
+			"totalUsers": "Total Users",
+			"totalCourses": "Total Courses",
+			"activeEnrollments": "Active Enrollments",
+			"todayActions": "Actions Today"
+		},
+		"users": {
+			"title": "Users",
+			"subtitle": "Manage system users",
+			"create": "Create User",
+			"createTitle": "Create User",
+			"editTitle": "Edit User",
+			"notFound": "User not found",
+			"formPlaceholder": "User form will be here",
+			"table": {
+				"name": "Name",
+				"email": "Email",
+				"group": "Group",
+				"role": "Role"
+			}
+		},
+		"courses": {
+			"title": "Courses",
+			"subtitle": "Manage courses",
+			"create": "Create Course",
+			"createTitle": "Create Course",
+			"editTitle": "Edit Course",
+			"notFound": "Course not found",
+			"formPlaceholder": "Course form will be here",
+			"table": {
+				"name": "Name",
+				"semester": "Semester",
+				"instructor": "Instructor"
+			}
+		},
+		"audit": {
+			"title": "Audit",
+			"subtitle": "System activity log",
+			"table": {
+				"timestamp": "Timestamp",
+				"user": "User",
+				"action": "Action",
+				"ip": "IP Address"
+			}
+		}
+	}
+}

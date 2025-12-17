@@ -1,0 +1,177 @@
+{
+	"common": {
+		"loading": "Загрузка...",
+		"error": "Ошибка",
+		"save": "Сохранить",
+		"cancel": "Отмена",
+		"send": "Отправить",
+		"back": "Назад",
+		"logout": "Выйти",
+		"edit": "Редактировать",
+		"delete": "Удалить",
+		"create": "Создать"
+	},
+	"auth": {
+		"title": "Добро пожаловать в Lumen LMS",
+		"subtitle": "Система управления обучением",
+		"loginWithItmo": "Войти через ITMO ID",
+		"loggingIn": "Выполняется вход..."
+	},
+	"nav": {
+		"home": "Главная",
+		"profile": "Профиль",
+		"courses": "Мои курсы",
+		"settings": "Настройки",
+		"menu": "Меню"
+	},
+	"home": {
+		"title": "Мои курсы",
+		"subtitle": "Курсы, в которых вы участвуете",
+		"noCourses": "У вас пока нет курсов",
+		"progress": "Прогресс"
+	},
+	"profile": {
+		"title": "Профиль",
+		"personalInfo": "Личная информация",
+		"academicInfo": "Учебная информация",
+		"contacts": "Контакты",
+		"firstName": "Имя",
+		"lastName": "Фамилия",
+		"middleName": "Отчество",
+		"email": "Email",
+		"group": "Группа",
+		"course": "Курс",
+		"faculty": "Факультет",
+		"isuId": "ISU ID",
+		"github": "GitHub",
+		"devRoleSwitcher": "DEV: Переключатель ролей",
+		"systemRole": "Системная роль",
+		"courseRoles": "Роли в курсах",
+		"devWarning": "Это временный свитчер для тестирования. Изменения сохраняются в localStorage."
+	},
+	"course": {
+		"about": "О курсе",
+		"grades": "Оценки",
+		"reviews": "Код-ревью",
+		"materials": "Материалы",
+		"feedback": "Обратная связь",
+		"members": "Участники",
+		"assignments": "Задания",
+		"settings": "Настройки",
+		"instructor": "Преподаватель",
+		"semester": "Семестр",
+		"description": "Описание курса",
+		"credits": "{{count}} кредитов",
+		"notFound": "Курс не найден",
+		"assignmentsPlaceholder": "Управление заданиями курса будет здесь",
+		"settingsPlaceholder": "Настройки курса будут здесь"
+	},
+	"grades": {
+		"title": "Оценки",
+		"assignment": "Задание",
+		"score": "Балл",
+		"maxScore": "Максимум",
+		"submittedAt": "Сдано",
+		"notSubmitted": "Не сдано",
+		"notGraded": "Не оценено"
+	},
+	"reviews": {
+		"title": "Код-ревью",
+		"assignment": "Задание",
+		"pullRequest": "Pull Request",
+		"status": "Статус",
+		"submittedAt": "Отправлено",
+		"pending": "Ожидает",
+		"inReview": "На проверке",
+		"approved": "Принято",
+		"rejected": "Отклонено"
+	},
+	"materials": {
+		"title": "Учебные материалы",
+		"link": "Ссылка",
+		"pdf": "PDF документ",
+		"video": "Видео",
+		"presentation": "Презентация",
+		"noMaterials": "Материалы пока не добавлены"
+	},
+	"feedback": {
+		"title": "Обратная связь",
+		"subtitle": "Напишите преподавателю",
+		"subject": "Тема обращения",
+		"subjectPlaceholder": "Введите тему",
+		"message": "Сообщение",
+		"messagePlaceholder": "Введите ваше сообщение...",
+		"send": "Отправить",
+		"success": "Сообщение отправлено",
+		"error": "Ошибка отправки"
+	},
+	"language": {
+		"ru": "Русский",
+		"en": "English"
+	},
+	"roles": {
+		"admin": "Админ",
+		"user": "Пользователь",
+		"lecturer": "Лектор",
+		"practitioner": "Практик",
+		"mentor": "Ментор",
+		"student": "Студент"
+	},
+	"admin": {
+		"title": "Админ-панель",
+		"panelTitle": "Admin Panel",
+		"nav": {
+			"dashboard": "Дашборд",
+			"users": "Пользователи",
+			"courses": "Курсы",
+			"audit": "Аудит"
+		},
+		"dashboard": {
+			"title": "Дашборд",
+			"subtitle": "Обзор системы",
+			"totalUsers": "Всего пользователей",
+			"totalCourses": "Всего курсов",
+			"activeEnrollments": "Активных записей",
+			"todayActions": "Действий сегодня"
+		},
+		"users": {
+			"title": "Пользователи",
+			"subtitle": "Управление пользователями системы",
+			"create": "Создать пользователя",
+			"createTitle": "Создание пользователя",
+			"editTitle": "Редактирование пользователя",
+			"notFound": "Пользователь не найден",
+			"formPlaceholder": "Форма пользователя будет здесь",
+			"table": {
+				"name": "Имя",
+				"email": "Email",
+				"group": "Группа",
+				"role": "Роль"
+			}
+		},
+		"courses": {
+			"title": "Курсы",
+			"subtitle": "Управление курсами",
+			"create": "Создать курс",
+			"createTitle": "Создание курса",
+			"editTitle": "Редактирование курса",
+			"notFound": "Курс не найден",
+			"formPlaceholder": "Форма курса будет здесь",
+			"table": {
+				"name": "Название",
+				"semester": "Семестр",
+				"instructor": "Преподаватель"
+			}
+		},
+		"audit": {
+			"title": "Аудит",
+			"subtitle": "Журнал действий в системе",
+			"table": {
+				"timestamp": "Время",
+				"user": "Пользователь",
+				"action": "Действие",
+				"ip": "IP-адрес"
+			}
+		}
+	}
+}
